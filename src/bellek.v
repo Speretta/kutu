@@ -9,7 +9,7 @@ module bellek(input clk_i,           // Clock girdisi
     
     // program.mem okunup mem içerisine aktarıldı
     initial begin
-        $readmemh("program.mem", mem);
+        $readmemh("./programs/program.mem", mem);
     end
 
     // Clock'tan bağımsız asenkron okuma yapıldı
